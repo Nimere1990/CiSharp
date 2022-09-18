@@ -6,3 +6,12 @@
 7 -> нет
 */
 
+Console.WriteLine("Введите чиcло");
+int num = int.Parse(Console.ReadLine());
+
+if (num % 2 == 1)
+Console.WriteLine($"Число " + num + " не чётное");
+    else
+    {
+        Console.WriteLine($"Число " + num + " чётное");
+    }
